@@ -1,4 +1,4 @@
-# 🔥 Portal Mitigasi Karhutla (Kebakaran Hutan dan Lahan)
+# Portal Mitigasi Karhutla (Kebakaran Hutan dan Lahan)
 
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
@@ -10,7 +10,7 @@ Proyek ini dibangun sebagai bentuk kepedulian terhadap isu lingkungan serta ditu
 
 ---
 
-## ✨ Fitur Utama
+## Fitur Utama
 
 1. **Dashboard Informatif & Profesional**
    - Pemantauan Kualitas Udara (PM2.5) secara *Real-Time*.
@@ -35,7 +35,7 @@ Proyek ini dibangun sebagai bentuk kepedulian terhadap isu lingkungan serta ditu
 
 ---
 
-## 🛠️ Teknologi yang Digunakan
+## Teknologi yang Digunakan
 
 Aplikasi ini dikembangkan menggunakan *tech stack* modern:
 *   **Framework Backend:** [Laravel 11.x](https://laravel.com/) (PHP)
@@ -46,7 +46,7 @@ Aplikasi ini dikembangkan menggunakan *tech stack* modern:
 
 ---
 
-## 🚀 Panduan Instalasi (Local Development)
+## Panduan Instalasi (Local Development)
 
 Jika Anda ingin menjalankan aplikasi ini di komputer lokal (localhost), ikuti langkah-langkah berikut:
 
