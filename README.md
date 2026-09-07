@@ -102,9 +102,3 @@ Jika Anda ingin menjalankan aplikasi ini di komputer lokal (localhost), ikuti la
    ```
    Aplikasi dapat diakses di: `http://localhost:8000`
 
----
-
-## 👨‍💻 Informasi Pengembang
-Proyek web aplikasi ini dibuat dari awal menggunakan Laravel untuk mensimulasikan sistem mitigasi Karhutla skala provinsi/nasional. Seluruh desain UI mengedepankan prinsip kemudahan penggunaan (*user-friendly*), estetik yang rapi (*clean design*), dan pengalaman yang humanis.
-
-*(Proyek ini dibuat untuk keperluan Tugas / Rekrutmen)*
