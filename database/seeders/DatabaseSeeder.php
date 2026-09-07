@@ -15,11 +15,26 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // User::factory(10)->create();
-
-        User::factory()->create([
-            'name' => 'Test User',
-            'email' => 'test@example.com',
+        User::create([
+            'name' => 'Admin Satgas',
+            'email' => 'admin@satgas.com',
+            'password' => bcrypt('password'),
+            'role' => 'admin',
         ]);
+
+        User::create([
+            'name' => 'Warga Peduli',
+            'email' => 'warga@satgas.com',
+            'password' => bcrypt('password'),
+            'role' => 'warga',
+        ]);
+
+        $this->call([
+            BeritaSeeder::class,
+        ]);
+        
+        \App\Models\Kategori::create(['nama_kategori' => 'Bantuan Medis']);
+        \App\Models\Kategori::create(['nama_kategori' => 'Masker N95']);
+        \App\Models\Kategori::create(['nama_kategori' => 'Evakuasi']);
     }
 }
